@@ -85,7 +85,7 @@ export class GeneratePin extends Component {
       if(this.state.pin.length){
         this.props.addPin(this.state.pin);
       } else {
-        alert('Empty Pin cannot be saved');
+        alert('Generate a Pin first');
       }
     }
     this.setState({pin: []})

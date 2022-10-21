@@ -7,7 +7,8 @@ export class SavedPin extends Component {
     return (
       <>
         <div className="container saved-pin-div">
-            {this.props.pins.map((elem)=>{
+            {(this.props.pins.length === 0) ? "There is no pin saved." :
+            this.props.pins.map((elem)=>{
               return(
                 <DisplayPin key={elem.name} pinDetails={elem} deletePin={this.props.deletePin}/>
               )
