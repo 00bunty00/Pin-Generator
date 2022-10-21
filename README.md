@@ -19,3 +19,5 @@ This project is made only for practice purpose. There are certian condition to t
 4. Run the command 'npm install' in the terminal and wait for it to intall necessary npm packages.
 5. After installation of npm packages run the command 'npm start'.
 6. The project should get opened in your default browser.
+
+### by - Rajeeb Nayak
