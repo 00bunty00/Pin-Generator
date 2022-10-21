@@ -1,0 +1,18 @@
+.navbar{
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+}
+.gen-pin-div{
+    padding: 12rem 15%;
+}
+.saved-pin-div{
+    padding: 7rem 15%;
+}
+.pin-box{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    text-align: center;
+    padding: 4px 0;
+    color: #666;
+    min-height: 2.2rem;
+}
